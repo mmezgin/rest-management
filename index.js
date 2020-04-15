@@ -1,4 +1,10 @@
-$(document).on("click", ".table", function (e) {
-    var clicked = e.target.id;
-    console.log(clicked)
-})
+const menu = document.getElementById("menu");
+const checkout = document.getElementById("checkout");
+
+eventListeners();
+
+
+function eventListeners() {
+    menu.addEventListener("click", getMenu)
+    checkout.addEventListener("click", getCheck);
+}

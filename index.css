@@ -1,5 +1,104 @@
-body {
-    text-align: center;
+body {}
+
+#ui {
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    left: 200px;
+    right: 200px;
+    top: 700px;
+    bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 380px);
+    grid-template-rows: repeat(1, 200px);
+    grid-gap: 50px 0px;
 }
 
-.img-class {}
+#menu-div {
+    border-style: solid;
+    border-color: red;
+    position: fixed;
+    bottom: 10px;
+    top: 700px;
+    width: 180px;
+    text-align: center;
+
+}
+
+#menu1 {
+    background-image: url(img/menu1.png);
+    background-size: cover;
+}
+
+#menu2 {
+    background-image: url(img/menu2.png);
+    background-size: cover;
+}
+
+#menu3 {
+    background-image: url(img/menu3.png);
+    background-size: cover;
+}
+
+#menu4 {
+    background-image: url(img/menu4.png);
+    background-size: cover;
+}
+
+#menu5 {
+    background-image: url(img/menu5.png);
+    background-size: cover;
+}
+
+#menu6 {
+    background-image: url(img/menu6.png);
+    background-size: cover;
+}
+
+#menu7 {
+    background-image: url(img/menu7.png);
+    background-size: cover;
+}
+
+#menu8 {
+    background-image: url(img/menu8.png);
+    background-size: cover;
+}
+
+#menu9 {
+    background-image: url(img/menu9.png);
+    background-size: cover;
+}
+
+.men {
+    border: thin gray solid;
+    padding: 20px;
+}
+
+#uiLeft {
+
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 50px);
+    grid-gap: 20px 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+
+
+}
+
+#uiRight {}
+
+#textArea {
+    background-color: rgba(156, 150, 150, 0.384);
+    padding-bottom: 132px;
+    padding-right: 337px;
+}
+
+.img-class {
+    text-align: center;
+
+}
